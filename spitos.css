@@ -1,0 +1,95 @@
+/* Estilos de la página de Quiénes Somos */
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fcd6d6;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#banner {
+    background-color: #fcd6d6;
+    padding: 40px;
+    text-align: center;
+}
+
+#contenido {
+    padding: 40px;
+}
+
+#contenido h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contenido p {
+    margin-bottom: 20px;
+}
+
+.contacto {
+    background-color: #fcd6d6;
+    padding: 40px;
+}
+
+.contacto h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    margin-bottom: 20px;
+}
+
+.contacto ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contacto li {
+    margin-bottom: 10px;
+}
+
+.contacto a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contacto a:hover {
+    text-decoration: underline;
+}

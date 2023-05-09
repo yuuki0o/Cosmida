@@ -1,0 +1,156 @@
+/* Estilo del menú */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li {
+  display:inline-block;
+  background-color:#333;
+}
+
+nav a {
+  display:block;
+  padding:0 10px;    
+  color:#fff;
+  font-size:18px;
+  line-height:60px;
+  text-decoration:none;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute; 
+  top: 60px; 
+}
+
+nav ul li:hover > ul {
+  display:inherit;
+}
+
+nav ul ul li {
+  width:200px;
+  float:none;
+  display:list-item;
+  position: relative;
+}
+
+nav ul ul ul li {
+  position: relative;
+  top:-60px;
+  left:200px;
+}
+
+/* Efectos de hover */
+nav a:hover, nav ul ul li:hover > a {
+  background-color:#F06292;
+  color:#fff;
+}
+
+nav ul li:hover > a {
+  color:#F06292; 
+}
+
+/* Estilo del banner */
+#banner {
+  background-image: url("fondo.png");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner h1 {
+  font-size: 4rem;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Estilo de la sección de descripción */
+#descripcion {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+}
+
+#descripcion div {
+  width: 90%;
+  margin: 20px;
+  text-align: justify;
+}
+
+#descripcion h2 {
+  color: #F06292;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#descripcion p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+#descripcion ul {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#descripcion ul li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* Efectos de hover para los elementos de la sección de descripción */
+#descripcion h2:hover {
+  color: #333;
+  cursor: pointer;
+}
+
+#descripcion p:hover {
+  color: #F06292;
+  cursor: pointer;
+}
+
+#descripcion ul li:hover {
+  color: #F06292;
+  cursor: pointer;
+}
+
+/* Estilo del botón */
+.btn {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F06292;
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  margin: 20px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #E91E63;
+}
+
+/* Estilo del formulario */
+form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input[type="text"], form input

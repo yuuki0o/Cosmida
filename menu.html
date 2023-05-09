@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Menú</title>
+	<link rel="stylesheet" href="stilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<h1>Menú de Cosmida</h1>
+		<nav>
+			<ul>
+				<li><a href="#desayunos">Desayunos</a></li>
+				<li><a href="#almuerzos">Almuerzos</a></li>
+				<li><a href="#postres">Postres</a></li>
+			</ul>
+		</nav>
+		<section id="desayunos">
+			<h2>Desayunos</h2>
+			<ul>
+				<li>Smoothie de frutas con leche de almendras</li>
+				<li>Tostada de aguacate y huevo</li>
+				<li>Bowl de avena con frutas y nueces</li>
+			</ul>
+		</section>
+		<section id="almuerzos">
+			<h2>Almuerzos</h2>
+			<ul>
+				<li>Ensalada César con pollo a la parrilla</li>
+				<li>Sándwich de aguacate y queso feta</li>
+				<li>Bowl de quinoa con verduras asadas</li>
+			</ul>
+		</section>
+		<section id="postres">
+			<h2>Postres</h2>
+			<ul>
+				<li>Helado de yogur con frutas frescas</li>
+				<li>Barritas de granola caseras</li>
+				<li>Brownies de chocolate sin azúcar</li>
+			</ul>
+		</section>
+        <section id="agregar">
+			<h2>Agregar al menú</h2>
+			<form>
+				<label for="nombre">Nombre del plato:</label>
+				<input type="text" id="nombre" name="nombre">
+				<label for="saludable">¿Es saludable?</label>
+				<input type="checkbox" id="saludable" name="saludable">
+				<button type="submit">Agregar</button>
+			</form>
+		</section>
+	</div>
+</body>
+</html>

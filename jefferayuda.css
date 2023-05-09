@@ -1,0 +1,90 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #F7D9D9;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff5e5e;
+}
+
+/* Estilos para el banner */
+#banner {
+    background-image: url('sedes-cosmo-schools-1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px #333;
+}
+
+/* Estilos para el contenido */
+#contenido {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+#contenido h2 {
+    color: #ff5e5e;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+#contenido p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #F7D9D9;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff5e5e;
+}

@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+nav a.active {
+	color: #ccc;
+}
+
+#banner {
+	background-image: url(../img/banner_quienes_somos.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#banner h1 {
+	color: #fff;
+	font-size: 3em;
+}
+
